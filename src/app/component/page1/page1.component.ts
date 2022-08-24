@@ -18,7 +18,7 @@ afficher(){
   if(this.random == 1){
   this.valeur = ! this.valeur
   } else {
-    this.date = new Date()
+    this.date = new Date().toLocaleString()
     this.compteur.push(this.date)
 
   }
